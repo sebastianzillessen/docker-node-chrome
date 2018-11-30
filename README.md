@@ -11,11 +11,19 @@ https://hub.docker.com/r/sebzill/node-chrome/
 
 This [Dockerfile](/Dockerfile) contains:
 
-- node: 10.13.0
-- npm: 6.4.1 (bundled with node 10.13.0)
-- google-chrome: 70.0.3538.110
+### Versions
+
+| Build     | Node      | NPM   | Google Chrome |
+| -----     | -----     | ----- | -----         |
+| latest    |10.13.0    | 6.4.1 |70.0.3538.110  |
+| 1.0.1     |10.13.0    | 6.4.1 |70.0.3538.110  |
 
 It is ready to run e.g. protractor tests.
+
+## Development
+On changes, there is a [TravisJob](https://travis-ci.com/sebastianzillessen/docker-node-chrome) validating the build.
+
+In addition, DockerHub will build from master the latest version. All Tags will be build as new version as well.
 
 ## Lincense
 
