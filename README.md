@@ -1,5 +1,7 @@
 # docker-node-chrome
 
+> forked from [amio/docker-node-chrome](https://github.com/amio/docker-node-chrome)
+
 Dockerfile for nodejs + chrome.
 
 ## On docker hub
