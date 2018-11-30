@@ -3,4 +3,3 @@ services:
   - docker
 script:
   - docker build -t sebzill/node-chrome .
-  - bash docker_push.sh
